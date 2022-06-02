@@ -1,7 +1,20 @@
 {
   "name": "nextjs-custom-boilerplate",
+  "author": "Marjon Camba",
+  "description": "A custom nextjs boiler plate starter",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "license": "MIT",
+  "homepage": "https://github.com/marjon-labs/nextjs-custom-boilerplate",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marjon-labs/nextjs-custom-boilerplate.git"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "yarn": ">=1.22.0",
+    "npm": "please-use-yarn"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
